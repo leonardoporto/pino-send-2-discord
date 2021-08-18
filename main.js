@@ -9,7 +9,6 @@ module.exports = function pinoDiscord({ url, level, onlyLevel }) {
       // apply a transform and send to stdout
       const log = JSON.parse(chunk.toString())
       if (onlyLevel && log.level == onlyLevel) {
-        console.log(log)
         webhookClient.send(
           '```json\n' +
           JSON.stringify(log, null, 2) +
