@@ -1,0 +1,27 @@
+{
+  "name": "pino-send2discord",
+  "description": "direct part of your log to discord",
+  "keywords": [
+    "pino",
+    "discord",
+    "logger"
+  ],
+  "homepage": "https://github.com/leonardoporto/pino-send-2-discord",
+  "bugs": {
+    "url": "https://github.com/leonardoporto/pino-send-2-discord/issues",
+    "email": "your-public-email@example.com"
+  },
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "minimist": "^1.2.5",
+    "pump": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonardoporto/pino-send-2-discord.git"
+  },
+  "author": "Leonardo Porto <leonardo.porto.souza@gmail.com>"
+}
